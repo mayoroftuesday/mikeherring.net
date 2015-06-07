@@ -1,0 +1,149 @@
+<html>
+
+<head>
+
+<link rel="stylesheet" href="style.css" />
+<title>Mike Herring - Dancer, Choreographer, Instructor</title>
+
+
+<!-- fancy box stuff -->
+
+    <!-- Add jQuery library -->
+    <script type="text/javascript" src="fancybox/lib/jquery-1.8.0.min.js"></script>
+
+    <!-- Add mousewheel plugin (this is optional) -->
+    <script type="text/javascript" src="fancybox/lib/jquery.mousewheel-3.0.6.pack.js"></script>
+
+    <!-- Add fancyBox main JS and CSS files -->
+    <script type="text/javascript" src="fancybox/source/jquery.fancybox.js?v=2.1.0"></script>
+    <link rel="stylesheet" type="text/css" href="fancybox/source/jquery.fancybox.css?v=2.1.0" media="screen" />
+
+    <!-- Add Button helper (this is optional) -->
+    <link rel="stylesheet" type="text/css" href="fancybox/source/helpers/jquery.fancybox-buttons.css?v=1.0.3" />
+    <script type="text/javascript" src="fancybox/source/helpers/jquery.fancybox-buttons.js?v=1.0.3"></script>
+
+    <!-- Add Thumbnail helper (this is optional) -->
+    <link rel="stylesheet" type="text/css" href="fancybox/source/helpers/jquery.fancybox-thumbs.css?v=1.0.6" />
+    <script type="text/javascript" src="fancybox/source/helpers/jquery.fancybox-thumbs.js?v=1.0.6"></script>
+
+    <!-- Add Media helper (this is optional) -->
+    <script type="text/javascript" src="fancybox/source/helpers/jquery.fancybox-media.js?v=1.0.3"></script>
+
+    <script type="text/javascript">
+        $(document).ready(function() {
+
+            $('.fancybox').fancybox();
+
+            $('.fancybox-media')
+                .attr('rel', 'media-gallery')
+                .fancybox({
+                    openEffect : 'none',
+                    closeEffect : 'none',
+                    prevEffect : 'none',
+                    nextEffect : 'none',
+
+                    arrows : false,
+                    helpers : {
+                        media : {},
+                        buttons : {}
+                    }
+                });
+        });
+    </script>
+
+
+<!-- end fancy box stuff -->
+
+</head>
+
+<body>
+
+<div id="container">
+
+<div id="title">MIKE HERRING</div>
+
+<div id="content">
+
+<div class="bar" id="grayBar">
+    <div id="menu">
+        <a href="contact.html">CONTACT</a>
+        <a href="media.html" class="selected">MEDIA</a>
+        <a href="bio.html">BIO</a>
+		<a href="art.html">ART</a>
+        <a href="index.html">HOME</a>
+    </div>
+
+</div>
+<div class="bar" id="yellowBar"></div>
+
+<div class="bar headerContainer"></div>
+<div class="header">Videos</div>
+<div style="clear:both;"></div>
+
+	<a class="fancybox-media" href="http://youtu.be/AwcwFzO6fdE" data-fancybox-group="media-gallery" title="Tips and Tops Hat Trick Club at Lindy Focus 2013- Hat Trick Tranky Doo"><img src="Photos/thumbs/trankydoo.jpg"></a>
+	<a class="fancybox-media" href="http://youtu.be/qZ-pYsgAA8Q" data-fancybox-group="media-gallery" title="ACME Swing Mfg. Co at Escafe 2014 - Tea For Two"><img src="Photos/thumbs/escafe.jpg"></a>
+	<a class="fancybox-media" href="http://youtu.be/gh7uEAbVjYM" data-fancybox-group="media-gallery" title="Richmond Jazz Era Preservation Ball 2014 - A capella"><img src="Photos/thumbs/jazzball.jpg"></a>
+	<a class="fancybox-media" href="http://youtu.be/PstdnkL9C24" data-fancybox-group="media-gallery" title="Lindy Focus New Years Eve Show 2014 - Sunny Side of the Street"><img src="Photos/thumbs/focus.jpg"></a>
+	<a class="fancybox-media" href="http://youtu.be/sIEusQyuRdU" data-fancybox-group="media-gallery" title="SwingCville Halloween Party 2013 - THRILLER"><img src="Photos/thumbs/thriller.jpg"></a>
+    <a class="fancybox-media" href="http://www.youtube.com/watch?v=mD0ivmw9TYs" data-fancybox-group="media-gallery" title="Performing Tappers Inc at Lindy Focus 2009"><img src="Photos/thumbs/tappers_inc_video.jpg"></a>
+    <a class="fancybox-media" href="http://www.youtube.com/watch?v=GN5GpuX6-GA" data-fancybox-group="media-gallery" title="Performing Tappers Inc at the Paramount Theater"><img src="Photos/thumbs/tappers_inc2_video.jpg" /></a>
+    <a class="fancybox-media" href="http://www.youtube.com/watch?v=0N1_K-7ZvMo" data-fancybox-group="media-gallery" title="Performing Sunny Side of the Street at ILHC 2011"><img src="Photos/thumbs/sunny_side_video.jpg"></a>
+    <a class="fancybox-media" href="http://www.youtube.com/watch?v=UrZMv7_KneI" data-fancybox-group="media-gallery" title="Improv night at Cville Coffee"><img src="Photos/thumbs/cville_coffee_video.jpg"></a>
+    <a class="fancybox-media" href="http://www.youtube.com/watch?v=NZkh6FvgMXs" data-fancybox-group="media-gallery" title="Improv Tap at Fridays After Five"><img src="Photos/thumbs/acme.jpg" /></a>
+    <a class="fancybox-media" href="http://www.youtube.com/watch?v=XmAmSIzo3UM" data-fancybox-group="media-gallery" title="Improv Tap with the SwingKats"><img src="Photos/thumbs/swingkats.jpg" /></a>
+    <a class="fancybox-media" href="http://www.youtube.com/watch?v=q_ksbujPxk8" data-fancybox-group="media-gallery" title="Joshua routine at Fridays AFter Five"><img src="Photos/thumbs/joshua.jpg" /></a>
+
+<div class="bar headerContainer"></div>
+<div class="header">Photos</div>
+<div style="clear:both;"></div>
+
+<div>
+
+	<a class="fancybox" href="Photos/lindyfocus2014.jpg" data-fancybox-group="image_gallery" title="Lindy Focus new Years Eve Show 2014 - Sunny Side of the Street"><img src="Photos/thumbs/lindyfocus2014.jpg" /></a>
+	<a class="fancybox" href="Photos/lindyfocus_hover.jpg" data-fancybox-group="image_gallery" title="Lindy Focus new Years Eve Show 2014 - Sunny Side of the Street"><img src="Photos/thumbs/lindyfocus_hover.jpg" /></a>
+	<a class="fancybox" href="Photos/jazzball2014.jpg" data-fancybox-group="image_gallery" title="Richmond Jazz Era Preservation Ball - A Capella"><img src="Photos/thumbs/jazzball2014.jpg" /></a>
+	<a class="fancybox" href="Photos/dclx2014.jpg" data-fancybox-group="image_gallery" title="DCLX 2014"><img src="Photos/thumbs/dclx2014.jpg" /></a>
+    <a class="fancybox" href="Photos/tapjam2.jpg" data-fancybox-group="image_gallery" title="Tap Jam at Lindy Focus"><img src="Photos/thumbs/tapjam2.jpg" /></a>
+    <a class="fancybox" href="Photos/tapjam1.jpg" data-fancybox-group="image_gallery" title="Tap Jam at LIndy Focus"><img src="Photos/thumbs/tapjam1.jpg" /></a>
+    <a class="fancybox" href="Photos/rehearsal.jpg" data-fancybox-group="image_gallery" title="Wedding rehearsal dinner"><img src="Photos/thumbs/rehearsal.jpg" /></a>
+    <a class="fancybox" href="Photos/wedding.jpg" data-fancybox-group="image_gallery" title="Wedding day!"><img src="Photos/thumbs/wedding.jpg" /></a>
+    <a class="fancybox" href="Photos/hattrick3.jpg" data-fancybox-group="image_gallery" title="Tips & Tops Hat Trick Troupe"><img src="Photos/thumbs/hattrick3.jpg" /></a>
+    <a class="fancybox" href="Photos/hattrick2.jpg" data-fancybox-group="image_gallery" title="Tips & Tops Hat Trick Troupe"><img src="Photos/thumbs/hattrick2.jpg" /></a>
+    <a class="fancybox" href="Photos/hattrick1.jpg" data-fancybox-group="image_gallery" title="Tips & Tops Hat Trick Troupe"><img src="Photos/thumbs/hattrick1.jpg" /></a>
+    <a class="fancybox" href="Photos/uva_dance.jpg" data-fancybox-group="image_gallery" title="Mike & Renae dancing at a UVA dance."><img src="Photos/thumbs/uva_dance.jpg" /></a>
+    <a class="fancybox" href="Photos/sunny_side1.jpg" data-fancybox-group="image_gallery" title="Performing Sunny Side of the Street at Southside Stomp"><img src="Photos/thumbs/sunny_side1.jpg" /></a>
+    <a class="fancybox" href="Photos/sunny_side2.jpg" data-fancybox-group="image_gallery" title="Performing Sunny Side of the Street at the Wilson Spring Performance"><img src="Photos/thumbs/sunny_side2.jpg" /></a>
+    <a class="fancybox" href="Photos/cville_coffee.jpg" data-fancybox-group="image_gallery" title="Performance at Cville Coffee with Stephanie Nakasian and Hod O'Brian."><img src="Photos/thumbs/cville_coffee.jpg" /></a>
+    <a class="fancybox" href="Photos/cville_coffee2.jpg" data-fancybox-group="image_gallery" title="Promo flyer for the Cville Coffee gig"><img src="Photos/thumbs/cville_coffee2.jpg" /></a>
+    <a class="fancybox" href="Photos/hat_tricks.jpg" data-fancybox-group="image_gallery" title="Performing the Hat Trick Shim Sham at Lindy Focus 2011"><img src="Photos/thumbs/hat_tricks.jpg" /></a>
+    <a class="fancybox" href="Photos/promo1.jpg" data-fancybox-group="image_gallery" title="Promo ad for SwingCville"><img src="Photos/thumbs/promo1.jpg" /></a>
+    <a class="fancybox" href="Photos/headshot1.jpg" data-fancybox-group="image_gallery" title="Virginia Beach Lindy Exchange 2010"><img src="Photos/thumbs/headshot1.jpg" /></a>
+    <a class="fancybox" href="Photos/headshot2.jpg" data-fancybox-group="image_gallery" title="Lindustrial Revolution 2010"><img src="Photos/thumbs/headshot2.jpg" /></a>
+    <a class="fancybox" href="Photos/improv_night1.jpg" data-fancybox-group="image_gallery" title="Improv tap with Stephanie Nakasian & Hod O'Brien, 2009"><img src="Photos/thumbs/improv_night1.jpg" /></a>
+    <a class="fancybox" href="Photos/improv_night2.jpg" data-fancybox-group="image_gallery" title="Improv tap with Stephanie Nakasian & Hod O'Brien, 2009"><img src="Photos/thumbs/improv_night2.jpg" /></a>
+    <a class="fancybox" href="Photos/improv_night3.jpg" data-fancybox-group="image_gallery" title="Improv tap with Stephanie Nakasian & Hod O'Brien, 2009"><img src="Photos/thumbs/improv_night3.jpg" /></a>
+    <a class="fancybox" href="Photos/jacknjill.jpg" data-fancybox-group="image_gallery" title="Jack and Jill competition at BABBLE 2012"><img src="Photos/thumbs/jacknjill.jpg" /></a>
+    <a class="fancybox" href="Photos/jam_circle.jpg" data-fancybox-group="image_gallery" title="Jam Circle at Virginia Beach Lindy Exchange, 2010(?)"><img src="Photos/thumbs/jam_circle.jpg" /></a>
+    <a class="fancybox" href="Photos/jam_circle2.jpg" data-fancybox-group="image_gallery" title="Jam Circle"><img src="Photos/thumbs/jam_circle2.jpg" /></a>
+    <a class="fancybox" href="Photos/newspaper.jpg" data-fancybox-group="image_gallery" title="Newspaper ad for SwingCville"><img src="Photos/thumbs/newspaper.jpg" /></a>
+    <a class="fancybox" href="Photos/photoshoot1_1.jpg" data-fancybox-group="image_gallery" title="From a SwingCville photoshoot"><img src="Photos/thumbs/photoshoot1_1.jpg" /></a>
+    <a class="fancybox" href="Photos/photoshoot2_1.jpg" data-fancybox-group="image_gallery" title="From a SwingCville photoshoot"><img src="Photos/thumbs/photoshoot2_1.jpg" /></a>
+    <a class="fancybox" href="Photos/photoshoot2_2.jpg" data-fancybox-group="image_gallery" title="From a SwingCville photoshoot"><img src="Photos/thumbs/photoshoot2_2.jpg" /></a>
+    <a class="fancybox" href="Photos/photoshoot2_4.jpg" data-fancybox-group="image_gallery" title="From a SwingCville photoshoot"><img src="Photos/thumbs/photoshoot2_4.jpg" /></a>
+    <a class="fancybox" href="Photos/photoshoot2_5.jpg" data-fancybox-group="image_gallery" title="From a SwingCville photoshoot"><img src="Photos/thumbs/photoshoot2_5.jpg" /></a>
+    <a class="fancybox" href="Photos/photoshoot3_1.jpg" data-fancybox-group="image_gallery" title="From a SwingCville photoshoot"><img src="Photos/thumbs/photoshoot3_1.jpg" /></a>
+    <a class="fancybox" href="Photos/photoshoot3_2.jpg" data-fancybox-group="image_gallery" title="From a SwingCville photoshoot"><img src="Photos/thumbs/photoshoot3_2.jpg" /></a>
+    <a class="fancybox" href="Photos/photoshoot3_3.jpg" data-fancybox-group="image_gallery" title="From a SwingCville photoshoot"><img src="Photos/thumbs/photoshoot3_3.jpg" /></a>
+    <a class="fancybox" href="Photos/photoshoot3_4.jpg" data-fancybox-group="image_gallery" title="From a SwingCville photoshoot"><img src="Photos/thumbs/photoshoot3_4.jpg" /></a>
+    <a class="fancybox" href="Photos/photoshoot4_1.jpg" data-fancybox-group="image_gallery" title="From a SwingCville photoshoot"><img src="Photos/thumbs/photoshoot4_1.jpg" /></a>
+    <a class="fancybox" href="Photos/photoshoot4_3.jpg" data-fancybox-group="image_gallery" title="From a SwingCville photoshoot"><img src="Photos/thumbs/photoshoot4_3.jpg" /></a>
+</div>
+
+
+</div> <!-- content -->
+</div> <!-- container -->
+
+</body>
+
+</html>
+

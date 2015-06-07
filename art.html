@@ -1,0 +1,105 @@
+<html>
+
+<head>
+
+<link rel="stylesheet" href="style.css" />
+<title>Mike Herring - Dancer, Choreographer, Instructor</title>
+
+
+<!-- fancy box stuff -->
+
+    <!-- Add jQuery library -->
+    <script type="text/javascript" src="fancybox/lib/jquery-1.8.0.min.js"></script>
+
+    <!-- Add mousewheel plugin (this is optional) -->
+    <script type="text/javascript" src="fancybox/lib/jquery.mousewheel-3.0.6.pack.js"></script>
+
+    <!-- Add fancyBox main JS and CSS files -->
+    <script type="text/javascript" src="fancybox/source/jquery.fancybox.js?v=2.1.0"></script>
+    <link rel="stylesheet" type="text/css" href="fancybox/source/jquery.fancybox.css?v=2.1.0" media="screen" />
+
+    <!-- Add Button helper (this is optional) -->
+    <link rel="stylesheet" type="text/css" href="fancybox/source/helpers/jquery.fancybox-buttons.css?v=1.0.3" />
+    <script type="text/javascript" src="fancybox/source/helpers/jquery.fancybox-buttons.js?v=1.0.3"></script>
+
+    <!-- Add Thumbnail helper (this is optional) -->
+    <link rel="stylesheet" type="text/css" href="fancybox/source/helpers/jquery.fancybox-thumbs.css?v=1.0.6" />
+    <script type="text/javascript" src="fancybox/source/helpers/jquery.fancybox-thumbs.js?v=1.0.6"></script>
+
+    <!-- Add Media helper (this is optional) -->
+    <script type="text/javascript" src="fancybox/source/helpers/jquery.fancybox-media.js?v=1.0.3"></script>
+
+    <script type="text/javascript">
+        $(document).ready(function() {
+
+            $('.fancybox').fancybox();
+
+            $('.fancybox-media')
+                .attr('rel', 'media-gallery')
+                .fancybox({
+                    openEffect : 'none',
+                    closeEffect : 'none',
+                    prevEffect : 'none',
+                    nextEffect : 'none',
+
+                    arrows : false,
+                    helpers : {
+                        media : {},
+                        buttons : {}
+                    }
+                });
+        });
+    </script>
+
+
+<!-- end fancy box stuff -->
+
+</head>
+
+<body>
+
+<div id="container">
+
+<div id="title">MIKE HERRING</div>
+
+<div id="content">
+
+<div class="bar" id="grayBar">
+    <div id="menu">
+        <a href="contact.html">CONTACT</a>
+        <a href="media.html">MEDIA</a>
+        <a href="bio.html">BIO</a>
+		<a href="art.html" class="selected">ART</a>
+        <a href="index.html">HOME</a>
+    </div>
+
+</div>
+<div class="bar" id="yellowBar"></div>
+
+<div class="bar headerContainer"></div>
+<div class="header">Line Drawings</div>
+<div style="clear:both;"></div>
+
+<div>
+
+	<a class="fancybox" href="Art/elliptical.jpg" data-fancybox-group="image_gallery" title="Elliptical"><img src="Art/thumbs/elliptical.jpg" /></a>
+	<a class="fancybox" href="Art/geoflake2.jpg" data-fancybox-group="image_gallery" title="Geoflake"><img src="Art/thumbs/geoflake2.jpg" /></a>
+	<a class="fancybox" href="Art/geoflake.jpg" data-fancybox-group="image_gallery" title="Geoflake 2"><img src="Art/thumbs/geoflake.jpg" /></a>
+	<a class="fancybox" href="Art/layers.jpg" data-fancybox-group="image_gallery" title="Layers"><img src="Art/thumbs/layers.jpg" /></a>
+	<a class="fancybox" href="Art/mesh.jpg" data-fancybox-group="image_gallery" title="Mesh"><img src="Art/thumbs/mesh.jpg" /></a>
+	<a class="fancybox" href="Art/pinwheel.jpg" data-fancybox-group="image_gallery" title="Pinwheel"><img src="Art/thumbs/pinwheel.jpg" /></a>
+	<a class="fancybox" href="Art/simple.jpg" data-fancybox-group="image_gallery" title="Simple"><img src="Art/thumbs/simple.jpg" /></a>
+	<a class="fancybox" href="Art/spiral.jpg" data-fancybox-group="image_gallery" title="Spiral"><img src="Art/thumbs/spiral.jpg" /></a>
+	<a class="fancybox" href="Art/star.jpg" data-fancybox-group="image_gallery" title="Star"><img src="Art/thumbs/star.jpg" /></a>
+	<a class="fancybox" href="Art/waves.jpg" data-fancybox-group="image_gallery" title="Waves"><img src="Art/thumbs/waves.jpg" /></a>
+	
+</div>
+
+
+</div> <!-- content -->
+</div> <!-- container -->
+
+</body>
+
+</html>
+

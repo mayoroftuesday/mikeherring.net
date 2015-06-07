@@ -1,0 +1,121 @@
+html, body
+{
+	height: 100%;
+}
+
+body 
+{
+	margin: 0px; 
+	padding: 0px;
+	text-align: center;  /* IE */
+	background-color:black; 
+	font-family: Trebuchet MS, Helvetica, sans-serif; 	
+	color: #bbb; 
+	font-size: 14px;
+}
+#container 
+{
+	margin: 0px auto; /* center if non-IE */
+	text-align: left; /* fix IE center hack */
+	width: 800px; /* Width */
+	min-height: 100%;
+	height: auto;
+	background-image:url(container_background.png);
+	background-repeat: repeat-y;
+}
+
+/* Hack for IE */
+* html #container
+{
+	height: 100%;
+}
+/* End IE Hack */
+
+a:link, a:hover, a:active, a:visited
+{
+	color: #CFC173;
+}
+
+#title 
+{
+	float:right; 
+	text-align:right; 
+
+	color:#757E8F; 
+	font-size:30px; 
+	line-height:22px;
+}
+#content
+{
+	margin-left:200px; /* Text indent */
+	clear:both;
+	padding-bottom:10px;
+}
+.header
+{
+	float:left; 
+	margin-left:-625px;       /* -1 * (Width - Text Indent + 25) */
+ 
+	color: #DDDDAA; 
+	font-size:20px; 
+}
+.bar
+{
+	margin-left:-200px; /* -1 * Text indent */
+	width:800px;        /* Width */
+}
+.headerContainer 
+{
+	float:left;    
+	height:25px;
+
+	/* transparency */
+	background-color:#fff; 
+	-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=10)";  /* IE 8 */
+	filter: alpha(opacity=10);					   /* IE 7 */
+	opacity:0.1;                                                       /* all other browsers */
+
+}
+#yellowBar
+{
+	height:15px;
+	background-color:#CFC173;
+	position:relative;
+	top:-29px;
+}
+#grayBar
+{
+	height:62px;
+	background-image:url(topbar.png);
+}
+#menu a
+{
+	display: block;
+	text-decoration: none;
+	height:62px;
+	padding: 0px 10px;
+	font-size:20px;
+	line-height: 33px;
+	float:right;
+	color: #DDDDAA; 
+	cursor: pointer;
+}
+#menu a.selected
+{
+	background-color: #4C4E6A;
+}
+#menu a:hover
+{
+	background-color: #fff;
+}
+.fancybox img, .fancybox-media img
+{
+	border: 5px solid black;
+	margin: 7px;
+}
+
+dt
+{
+	font-weight: bold;
+	margin: 15px 0px 10px 0px;
+}
